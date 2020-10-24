@@ -1,124 +1,106 @@
   * {
-            margin: 0px;
-            padding: 0px;
-        }
+  box-sizing: border-box;
+}
+.headtext {
+  font-size: 175%;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 
-        .headtext {
-            font-size: 175%;
-            text-align: center;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        .subcontent {
-            margin: 35px 10px 10px 10px;
-        }
-
-        @media (min-width: 992px) {
-
-            .menu1,
-            .menu2,
-            .menu3 {
-                width: 30%;
-                border: 2px solid black;
-                background-color: grey;
-                float: left;
-                margin-left: 2.5%;
-            }
-
-            .chiken {
-                border: 2px solid black;
-                font-size: 25px;
-                float: right;
-                background-color: pink;
-            }
-
-            .Beef {
-                border: 2px solid black;
-                font-size: 25px;
-                float: right;
-                background-color: rgb(201, 49, 49);
-            }
-
-            .Sushi {
-                border: 2px solid black;
-                font-size: 25px;
-                float: right;
-                background-color: yellow;
-            }
-        }
-
-        @media (min-width: 768px) and (max-width: 991px) {
-
-            .menu1,
-            .menu2 {
-                width: 45%;
-                border: 2px solid black;
-                background-color: grey;
-                float: left;
-                margin: 2%;
-            }
-
-            .menu3 {
-                width: 94.5%;
-                margin: 2%;
-                border: 2px solid black;
-                background-color: grey;
-                float: left;
-            }
-
-            .chiken {
-                border: 2px solid black;
-                font-size: 25px;
-                float: right;
-                background-color: pink;
-            }
-
-            .Beef {
-                border: 2px solid black;
-                font-size: 25px;
-                float: right;
-                background-color: rgb(201, 49, 49);
-            }
-
-            .Sushi {
-                border: 2px solid black;
-                font-size: 25px;
-                float: right;
-                background-color: yellow;
-            }
-        }
-
-        @media (max-width: 767px) {
-
-            .menu1,
-            .menu2,
-            .menu3 {
-                width: 92%;
-                border: 2px solid black;
-                background-color: grey;
-                margin: 5%;
-                margin-top: 15px;
-            }
-
-            .chiken {
-                border: 2px solid black;
-                font-size: 25px;
-                float: right;
-                background-color: pink;
-            }
-
-            .Beef {
-                border: 2px solid black;
-                font-size: 25px;
-                float: right;
-                background-color: rgb(201, 49, 49);
-            }
-
-            .Sushi {
-                border: 2px solid black;
-                font-size: 25px;
-                float: right;
-                background-color: yellow;
-            }
-        }
+.subcontent {
+  margin: 35px 10px 10px 10px;
+}
+@media (min-width: 992px) {
+  .menu1,
+  .menu2,
+  .menu3 {
+    width: 30%;
+    border: 2px solid black;
+    background-color: grey;
+    float: left;
+    margin-left: 2.5%;
+  }
+  .chiken {
+    border: 2px solid black;
+    font-size: 25px;
+    float: right;
+    background-color: pink;
+  }
+  .Beef {
+    border: 2px solid black;
+    font-size: 25px;
+    float: right;
+    background-color: rgb(201, 49, 49);
+  }
+  .Sushi {
+    border: 2px solid black;
+    font-size: 25px;
+    float: right;
+    background-color: yellow;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu1,
+  .menu2 {
+    width: 46%;
+    border: 2px solid black;
+    background-color: grey;
+    float: left;
+    margin: 2%;
+  }
+  .menu3 {
+    margin: 16px;
+    border: 2px solid black;
+    background-color: grey;
+    float: left;
+  }
+  .chiken {
+    border: 2px solid black;
+    font-size: 25px;
+    float: right;
+    background-color: pink;
+  }
+  .Beef {
+    border: 2px solid black;
+    font-size: 25px;
+    float: right;
+    background-color: rgb(201, 49, 49);
+  }
+  .Sushi {
+    border: 2px solid black;
+    font-size: 25px;
+    float: right;
+    background-color: yellow;
+  }
+}
+@media (max-width: 768px) {
+  .menu1,
+  .menu2,
+  .menu3 {
+    width: 96%;
+    border: 2px solid black;
+    background-color: grey;
+    margin: 2%;
+    margin-top: 15px;
+  }
+  .chiken {
+    border: 2px solid black;
+    font-size: 25px;
+    float: right;
+    background-color: pink;
+    box-sizing: border-box;
+  }
+  .Beef {
+    border: 2px solid black;
+    font-size: 25px;
+    float: right;
+    background-color: rgb(201, 49, 49);
+  }
+  .Sushi {
+    border: 2px solid black;
+    font-size: 25px;
+    float: right;
+    background-color: yellow;
+  }
+}
