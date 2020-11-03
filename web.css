@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .navbar-toggler {
+    display: none !important;
+    color: azure !important;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: none !important;
+  }
+}
+.navbar-nav {
+  font-size: large;
+  border: 1px solid #7fffd4;
+  background-color: #fc8019;
+}
+.navbar-nav .nav-item .nav-link {
+  color: azure !important;
+}
+.navbar-light .navbar-brand {
+  font-family: "Open Sans", sans-serif;
+}
+.navbar {
+  background-color: rgb(41, 41, 41);
+}
+.navbar-light .navbar-toggler {
+  background-color: azure !important;
+}
+.navbar-brand {
+  color: azure !important;
+}
+.nav-item .nav-link :active {
+  color: black;
+}
+.navbar-nav > .nav-item > .nav-link:hover {
+  background-color: grey;
+}
+
+/*----Menu-----*/
+
+.Chicken,
+.Beef,
+.Sushi {
+  padding: 4px;
+}
+.Chicken {
+  border: 2px solid black;
+  background-color: pink;
+}
+.Beef {
+  border: 2px solid black;
+  background-color: rgb(201, 49, 49);
+}
+.Sushi {
+  border: 2px solid black;
+  background-color: yellow;
+}
+.menu1,
+.menu2,
+.menu3 {
+  box-shadow: 5px 8px rgb(172, 169, 169);
+  padding: 0px !important;
+}
+.subcontent {
+  margin: 12px 10px 10px 10px;
+  font-size: 150%;
+  padding: 16px;
+}
+@media (min-width: 992px) {
+  .menu1,
+  .menu2,
+  .menu3 {
+    width: 30.4% !important;
+    border: 2px solid black;
+    background-color: grey;
+    margin-left: 2.2% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu1,
+  .menu2 {
+    max-width: none !important;
+    width: 46% !important;
+    border: 2px solid black;
+    background-color: grey;
+    float: left !important;
+    margin: 2% !important;
+  }
+  .menu3 {
+    max-width: none !important;
+    width: 96% !important;
+    margin: 2% !important;
+    border: 2px solid black;
+    background-color: grey;
+  }
+}
+@media (max-width: 768px) {
+  .menu1,
+  .menu2,
+  .menu3 {
+    width: 96% !important;
+    border: 2px solid black;
+    background-color: grey;
+    margin: 2%;
+    margin-top: 15px;
+  }
+}
